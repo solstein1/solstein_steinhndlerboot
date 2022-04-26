@@ -1,0 +1,93 @@
+
+
+  /* Estilo de título/logo */
+  .navbar-brand{
+    font-family: 'Old Standard TT', serif;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  
+/*Estilo fotos*/
+
+.fotoinicio{
+    width: 300px;
+    height: 400;
+   /* opacity: 0.9;*/
+    border: 2px; 
+}
+
+img{
+    width: 300px;
+    height: 400;
+    /*opacity: 0.9;*/
+    border: 2px; 
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+header{
+    padding: 0.1rem;
+}
+
+.fotoinicio1:hover{
+    transform: scale(1.1 , 1.1 );
+    transition: all 1s ease;
+}
+
+.fotoinicio2:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 1s ease;
+}
+
+.fotoinicio3:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 1s ease;
+}
+
+footer{
+    padding: 1.5rem;
+}
+
+
+h4{
+    font-size: 0.9rem;
+    text-align: end;
+}
+
+.shop{
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: lightslategray;
+    border-color: lightslategray;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: lightslategray;
+    border-color: lightslategray;
+    transform: scale(0.9);
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+padding: 2rem;
+    margin-top: var(--bs-gutter-y);
+}
+
+/*h3 text-center mt-5 mb-3*/
